@@ -1,0 +1,61 @@
+# Git
+.git
+.gitignore
+.github
+
+# Environment variables
+.env
+.env.*
+!.env.template
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.coverage.*
+
+# Caches
+cache/
+.cache/
+
+# Editor configs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vs/
+
+# Logs
+logs/
+*.log
+server.log
+api.log
+
+# Tests and documentation
+tests/
+docs/
+
+# Frontend
+web/node_modules
+web/.next
+web/out
+web/build
+web/dist
+
+# CI/CD
+.pre-commit-config.yaml
